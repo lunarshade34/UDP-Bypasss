@@ -1,0 +1,5 @@
+-CMD GÜNCELLEME-
+
+cmd'yi acın
+
+pip install requests
