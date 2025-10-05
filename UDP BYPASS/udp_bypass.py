@@ -6,7 +6,7 @@ import subprocess
 
 DEFAULT_PORT = 80
 DEFAULT_SECONDS = 5
-SERVER_PROCESS_NAME = "server.exe"  # istersen burayı değiştir
+SERVER_PROCESS_NAME = "server.exe"
 
 def ask_ip():
     raw = input("IP: ").strip()
@@ -136,3 +136,4 @@ if __name__ == "__main__":
     except ValueError as e:
         print("Hata:", e)
         sys.exit(1)
+
